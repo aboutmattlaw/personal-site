@@ -1,11 +1,12 @@
 body {
-    background: #dedede;
+    background: #BFFF0D;
   } 
 .container {
     display: flex;
+    justify-content: center;
   }
 #col1 {
-    background: #ce8888;
+    background: #3D32FA;
     flex-basis: 300px;
     height: 100px;
     margin: 5px;
@@ -13,7 +14,7 @@ body {
     padding: 25px
 }
 #col2 { 
-    background: #ce8888;
+    background: #3D32FA;
     flex-basis: 300px;
     height: 100px;
     margin: 5px;
@@ -21,9 +22,15 @@ body {
     padding: 25px
 }
 #col3 { 
-    background: #ce8888;
+    background: #3D32FA;
     flex-basis: 300px;
     height: 100px;
+    margin: 5px;
+    text-align: center;
+    padding: 25px
+}
+#full { 
+    background: #F55018;
     margin: 5px;
     text-align: center;
     padding: 25px
