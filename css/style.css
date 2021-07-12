@@ -1,7 +1,11 @@
 body {
     background: #BFFF0D;
     font-family:Arial, Helvetica, sans-serif;
-    color: white;    
+}
+h1,
+h2,
+h3 {
+    color: white;
 }
 a:visited {
     color: white;
@@ -38,6 +42,12 @@ a {
     padding: 25px
 }
 #full { 
+    background: #F55018;
+    margin: 5px;
+    text-align: center;
+    padding: 25px
+}
+#full2 { 
     background: #F55018;
     margin: 5px;
     text-align: center;
