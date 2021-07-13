@@ -17,9 +17,21 @@ a {
     display: flex;
     justify-content: center;
   }
+.fullwidth{
+    background: #3D32FA;
+    color: white;
+    text-indent: 25px;
+    font-size: large;
+    height: 100px;
+    margin: 5px;
+    padding: 25px
+}
 #col1 {
     background: #3D32FA;
-    flex-basis: 300px;
+    color: white;
+    text-indent: 25px;
+    font-size: large;
+    flex-basis: 400px;
     height: 100px;
     margin: 5px;
     text-align: center;
@@ -27,7 +39,10 @@ a {
 }
 #col2 { 
     background: #3D32FA;
-    flex-basis: 300px;
+    color: white;
+    text-indent: 25px;
+    font-size: large;
+    flex-basis: 400px;
     height: 100px;
     margin: 5px;
     text-align: center;
@@ -35,7 +50,10 @@ a {
 }
 #col3 { 
     background: #3D32FA;
-    flex-basis: 300px;
+    color: white;
+    text-indent: 25px;
+    font-size: large;
+    flex-basis: 400px;
     height: 100px;
     margin: 5px;
     text-align: center;
