@@ -71,3 +71,22 @@ a {
     text-align: center;
     padding: 25px
 }
+.nav { 
+    background: #F55018;
+    margin: 5px;
+    text-align: center;
+    padding: 25px
+}
+nav1 ul {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3D32FA;
+}
+nav1 li {
+    float: left;
+}
+nav1 li a {
+    display: block;
+    padding: 8px;
+}
