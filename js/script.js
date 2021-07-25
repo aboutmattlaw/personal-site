@@ -1,9 +1,9 @@
 const time = new Date().getHours();
 let greeting;
 if (time < 12) {
-  greeting = "Good morning";
+    greeting = "Good morning";
 } else if (time < 20) {
-  greeting = "Good day";
+    greeting = "Good day";
 } else {
-  greeting = "Good evening";
+    greeting = "Good evening";
 }
