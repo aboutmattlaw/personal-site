@@ -20,7 +20,7 @@ html, body {
 
   .wrapper {
     max-width: 50%;
-    display: flex;
+    display:flex;
     flex-direction: row;
     height: 80%;
   }
@@ -68,6 +68,20 @@ html, body {
     background-color: rgba(0, 0, 0, 0.1);
   }
   
+/* Use Media Query to add a breakpoint at 800px: */
+
+@media screen and (max-width:800px) {
+  .left, .right {
+    /* background-color: cornsilk;*/
+    float: none;
+    margin-right:0;
+    width:100%;
+    border:100;
+  }
+
+
+
+
 
 /* 
 body {
