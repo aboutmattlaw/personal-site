@@ -18,6 +18,12 @@ html, body {
     margin-bottom: 2px;
   }
 
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+  }
+
   .wrapper {
     max-width: 50%;
     display:flex;
