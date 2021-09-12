@@ -137,3 +137,13 @@ a:hover {
   height: 80%; 
 }
 }
+
+.search {
+  text-align: center
+}
+
+#term {
+  width: 200px;
+}
+
+

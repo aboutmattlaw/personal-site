@@ -5,7 +5,7 @@
     <title>About Matt Law - Resume</title>
     <link rel="stylesheet" href="./css/style2.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-    <script src="./js/script2.js"></script>
+    <script defer src="./js/script2.js"></script>
     <link rel="icon"
         href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/waving-hand_1f44b.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,11 @@
 
 <body>
 
- 
+
 <div class="search">
- <div><h1>Search and get results back just from W3Schools and MDN</h1></div>
+    <h2>Search and get results back just from W3Schools and MDN</h2>
 
-
+     
 <form class="form">
     <input type="text" id = "term">
     <input type="submit" value = "search">
@@ -27,28 +27,6 @@
 
 
 
-
-    <script>
-
-
-
-
-
-        document.querySelector(".form").addEventListener("submit", gotoGoogle);       
-        function gotoGoogle(e){
-            e.preventDefault()
-            console.log(e)
-            console.log(e.target.term.value)
-            let term = e.target.term.value
-            const searchUrl = `https://www.google.com/search?q=${term}+site%3Ahttps%3A%2F%2Fdeveloper.mozilla.org%2F+OR+site%3Ahttps%3A%2F%2Fwww.w3schools.com`
-            console.log(searchUrl)
-            window.location.href=searchUrl
-        }
-
-
-
-        
-        </script>
         
 
 </body>
