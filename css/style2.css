@@ -125,6 +125,14 @@ a:hover {
 }
 
 
+.search {
+  text-align: center
+}
+
+#term {
+  width: 200px;
+}
+
 
 
 @media screen and (max-width:800px) {
@@ -136,14 +144,6 @@ a:hover {
   flex-direction: column;
   height: 80%; 
 }
-}
-
-.search {
-  text-align: center
-}
-
-#term {
-  width: 200px;
 }
 
 
